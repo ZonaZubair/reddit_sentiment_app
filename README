@@ -1,0 +1,47 @@
+**Brand Sentiment Monitor - Project Summary**
+
+A Streamlit-based web app that analyzes the sentiment of Reddit comments or brand mentions using a transformer-based NLP model. The dashboard provides interactive visualization of sentiment distribution, detailed comment scores, and live feedback.
+
+
+Key Features:
+
+* Accepts multiple comments as input
+* Real-time sentiment analysis using Hugging Face transformers
+* Pie chart summary of sentiment distribution (bright color scheme)
+* Clean dashboard layout with clear UI sections
+* No CSV uploads or external data scraping (manual input only)
+
+## 🚀 Live Demo
+
+Check out the live app here: [Brand Sentiment Monitor](https://brand-sentiment-monitor-8cd3zok5h2yyg7927bymqb.streamlit.app/)
+
+
+“Tested on Chrome and Firefox (desktop). Some mobile browsers may not fully support metrics display due to Streamlit layout limitations.”
+
+
+How to Run This Project Locally:
+
+1. Clone the GitHub repository:
+
+   git clone https://github.com/yourusername/brand-sentiment-monitor.git
+   cd brand-sentiment-monitor
+
+
+2. Create and activate a virtual environment:
+
+   python -m venv venv
+   For Windows: venv\Scripts\activate
+
+3. Install dependencies:
+
+   pip install -r requirements.txt
+
+4. Launch the Streamlit app:
+
+   streamlit run app.py
+
+5. The app will open in your browser at:
+   [http://localhost:8501](http://localhost:8501)
+
+For dependencies see requirements.txt
+

@@ -1,0 +1,7 @@
+streamlit
+pandas
+matplotlib
+wordcloud
+transformers>=4.40.1
+gdown
+torch  # Required backend for transformers
