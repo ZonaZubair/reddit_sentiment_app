@@ -5,11 +5,9 @@ A Streamlit-based web app that analyzes the sentiment of Reddit comments or bran
 
 Key Features:
 
-* Accepts multiple comments as input
 * Real-time sentiment analysis using Hugging Face transformers
 * Pie chart summary of sentiment distribution (bright color scheme)
 * Clean dashboard layout with clear UI sections
-* No CSV uploads or external data scraping (manual input only)
 
 ## 🚀 Live Demo
 
@@ -44,4 +42,5 @@ How to Run This Project Locally:
    [http://localhost:8501](http://localhost:8501)
 
 For dependencies see requirements.txt
+
 
